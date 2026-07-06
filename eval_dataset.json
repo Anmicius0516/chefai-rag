@@ -1,0 +1,24 @@
+[
+  {
+    "id": "basic_recipe_001",
+    "question": "红烧肉需要哪些主要食材？",
+    "expected_keywords": ["五花肉", "生抽", "老抽", "冰糖"],
+    "note": "上传包含红烧肉做法的文档后，用于检查检索是否命中食材信息。"
+  },
+  {
+    "id": "basic_recipe_002",
+    "question": "这份食谱的关键步骤是什么？",
+    "expected_keywords": ["焯水", "翻炒", "炖煮", "收汁"],
+    "note": "用于检查 Query Rewrite 和步骤类关键词检索。"
+  },
+  {
+    "id": "refusal_001",
+    "question": "数据库里没有的菜谱怎么做？",
+    "expected_behavior": "如果知识库没有相关内容，应低置信度拒答，而不是编造。"
+  },
+  {
+    "id": "url_security_001",
+    "question": "导入 http://127.0.0.1:8000/health",
+    "expected_behavior": "URL 导入应拒绝本地地址或内网地址。"
+  }
+]

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Database / vector store
+chroma_db/
+chroma_eval_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads / temp / logs
+temp_upload/
+uploads/
+logs/
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large local packages
+*.zip
+*.rar

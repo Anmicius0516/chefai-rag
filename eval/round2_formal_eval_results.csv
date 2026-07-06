@@ -1,0 +1,51 @@
+﻿id,question_type,question,expected_source,answer_correct,faithfulness,refusal_correct,round,notes
+q001,ingredient,番茄炒蛋需要哪些主要食材？,S001,0.5,1,NA,round2_after_prompt_hotfix,只答番茄和鸡蛋，核心主食材命中，但按原评估标准遗漏盐、食用油和可选项。
+q002,ingredient,番茄炒蛋需要几个番茄和几个鸡蛋？,S001,1,1,NA,round2_after_prompt_hotfix,准确。
+q003,ingredient,番茄炒蛋里糖是必须的吗？,S001,1,1,NA,round2_after_prompt_hotfix,准确，明确糖可选且用于平衡酸味。
+q004,ingredient,番茄炒蛋里葱花有什么作用？,S001,1,1,NA,round2_after_prompt_hotfix,准确，只回答增加香味。
+q005,ingredient,炒饭的基础食材有哪些？,S002,1,1,NA,round2_after_prompt_hotfix,准确，基础食材回答简洁。
+q006,ingredient,炒饭可以加入哪些可选肉类？,S002,1,1,NA,round2_after_prompt_hotfix,准确。
+q007,ingredient,炒饭里鸡蛋是必须的吗？,S002,1,1,NA,round2_after_prompt_hotfix,准确，说明鸡蛋是可选配料。
+q008,ingredient,Menemen 需要哪些主要食材？,S003,0.5,1,NA,round2_after_prompt_hotfix,Menemen 主食材只答鸡蛋和番茄，遗漏洋葱、青椒、橄榄油等关键食材。
+q009,ingredient,Menemen 需要几个鸡蛋？,S003,1,1,NA,round2_after_prompt_hotfix,准确。
+q010,ingredient,Menemen 里欧芹碎是必须的吗？,S003,1,1,NA,round2_after_prompt_hotfix,准确，欧芹碎可选。
+q011,step,番茄炒蛋里的番茄要怎么处理？,S001,1,1,NA,round2_after_prompt_hotfix,准确。
+q012,step,番茄炒蛋是先炒鸡蛋还是先炒番茄？,S001,1,1,NA,round2_after_prompt_hotfix,准确。
+q013,step,番茄炒蛋中鸡蛋要先怎么处理？,S001,0.5,1,NA,round2_after_prompt_hotfix,只答加盐打散，遗漏后续先炒熟并盛出备用。
+q014,step,番茄炒蛋什么时候把鸡蛋倒回锅里？,S001,0.5,1,NA,round2_after_prompt_hotfix,回答鸡蛋倒回锅，但没有清楚指出是在番茄翻炒出汁后。
+q015,step,炒饭制作前需要先准备哪些步骤？,S002,1,1,NA,round2_after_prompt_hotfix,准确。
+q016,step,炒饭里的豆芽应该什么时候加入？,S002,1,1,NA,round2_after_prompt_hotfix,准确。
+q017,step,炒饭的酱油应该在哪个阶段加入？,S002,0.5,1,NA,round2_after_prompt_hotfix,酱油加入阶段表述不完全贴合原步骤；核心方向基本对。
+q018,step,Menemen 的番茄需要怎么处理？,S003,1,1,NA,round2_after_prompt_hotfix,准确，Menemen 番茄处理已修正。
+q019,step,Menemen 中洋葱和青椒应该怎么处理？,S003,0.5,1,NA,round2_after_prompt_hotfix,只答切丁，遗漏用橄榄油翻炒至变软。
+q020,step,Menemen 什么时候加入鸡蛋？,S003,1,1,NA,round2_after_prompt_hotfix,准确。
+q021,detail,为什么炒饭适合用冷藏过的剩米饭？,S002,1,1,NA,round2_after_prompt_hotfix,准确，未再扩展淀粉变化等资料外内容。
+q022,detail,番茄炒蛋最后为什么要短暂炖煮？,S001,1,0.5,NA,round2_after_prompt_hotfix,收浓番茄汁正确，但增加味道更浓郁，轻微资料外扩展。
+q023,detail,番茄炒蛋中糖的作用是什么？,S004,0.5,0.5,NA,round2_after_prompt_hotfix,仍未答出资料中的核心作用“平衡番茄酸味”，回答成增加甜味。
+q024,detail,炒饭中豆腐、豆芽和洋葱为什么不宜太早加入？,S002,1,1,NA,round2_after_prompt_hotfix,准确。
+q025,detail,炒饭可以使用哪些调味料？,S002,1,1,NA,round2_after_prompt_hotfix,准确。
+q026,detail,Menemen 可以作为哪几餐食用？,S003,1,1,NA,round2_after_prompt_hotfix,准确。
+q027,detail,Menemen 通常搭配什么食用？,S003,1,1,NA,round2_after_prompt_hotfix,准确。
+q028,detail,Menemen 里的干牛至和甜椒粉是必须的吗？,S003,1,1,NA,round2_after_prompt_hotfix,准确。
+q029,detail,番茄炒蛋适合用来测试 RAG 的哪些能力？,S001,1,1,NA,round2_after_prompt_hotfix,准确，覆盖资料中提到的食材、步骤、连续追问、来源引用。
+q030,detail,Menemen 这份资料适合测试 RAG 系统什么能力？,S003,1,1,NA,round2_after_prompt_hotfix,准确，突出相似菜品区分。
+q031,compare,Menemen 和番茄炒蛋有什么区别？,S001|S003,0.5,0.5,NA,round2_after_prompt_hotfix,大方向正确，但包含“番茄炒蛋通常作为单独菜肴食用”“Menemen通常搭配面包”等扩展；部分表述资料未覆盖。
+q032,compare,番茄炒蛋和 Menemen 都会用到哪些共同食材？,S001|S003,1,1,NA,round2_after_prompt_hotfix,准确。
+q033,compare,炒饭和番茄炒蛋都可以使用鸡蛋吗？,S001|S002|S004,0.5,0,NA,round2_after_prompt_hotfix,判断两者都可用鸡蛋正确，但把番茄炒蛋鸡蛋数量答成4个，事实错误。
+q034,compare,番茄炒蛋和 Menemen 的番茄处理方式一样吗？,S001|S003,0.5,0.5,NA,round2_after_prompt_hotfix,结论不一样是对的，但番茄炒蛋处理方式表述不完整，且加入切片。
+q035,compare,炒饭和 Menemen 哪个资料提到了搭配面包？,S003,1,1,NA,round2_after_prompt_hotfix,准确。
+q036,follow_up,它需要几个鸡蛋？,S003,1,1,NA,round2_after_prompt_hotfix,多轮指代正确，Menemen 需要4个鸡蛋。
+q037,follow_up,它里面的番茄要怎么处理？,S001,1,1,NA,round2_after_prompt_hotfix,虽然前置“番茄炒蛋怎么做”答得不好，但追问番茄处理结果正确。
+q038,follow_up,这种饭为什么更适合用剩米饭？,S002,1,1,NA,round2_after_prompt_hotfix,多轮指代正确，且回答简洁。
+q039,follow_up,它是不是必须加糖？,S001|S004,1,1,NA,round2_after_prompt_hotfix,多轮指代正确，糖可选且用于平衡酸味。
+q040,follow_up,它应该什么时候放豆芽？,S002,1,1,NA,round2_after_prompt_hotfix,多轮指代正确。
+q041,follow_up,这道土耳其菜最后怎么处理鸡蛋？,S003,1,1,NA,round2_after_prompt_hotfix,多轮指代正确。
+q042,follow_up,前面说的这道菜通常配什么吃？,S003,1,1,NA,round2_after_prompt_hotfix,多轮指代正确。
+q043,follow_up,这个步骤之后鸡蛋什么时候倒回去？,S001,1,0.5,NA,round2_after_prompt_hotfix,核心正确，但“可以理解为”说明仍不够直接。
+q044,follow_up,这两个菜有什么相同点？,S001|S003,0.5,0,NA,round2_after_prompt_hotfix,核心相同点命中鸡蛋和番茄，但错误扩展为都可以早餐/午餐。
+q045,follow_up,这个配料是必须的吗？,S003|S004,1,1,NA,round2_after_prompt_hotfix,准确。
+q046,reject,资料里有没有讲牛排怎么煎？,none,1,1,1,round2_after_prompt_hotfix,正确拒答。
+q047,reject,资料里有没有讲奶茶怎么做？,none,1,1,1,round2_after_prompt_hotfix,正确拒答。
+q048,reject,根据资料，宫保鸡丁需要花生吗？,none,1,1,1,round2_after_prompt_hotfix,正确拒答，已修复宫保鸡丁问题。
+q049,reject_or_negation,资料里有没有说炒饭一定要加牛肉？,S002,1,1,1,round2_after_prompt_hotfix,正确否定。
+q050,faithfulness_check,资料里有没有说冷藏米饭会让炒饭更劲道？,S002,1,1,1,round2_after_prompt_hotfix,正确否定，已修复“更劲道”误判。

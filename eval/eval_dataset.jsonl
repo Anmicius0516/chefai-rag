@@ -1,0 +1,50 @@
+{"id": "q001", "question": "番茄炒蛋需要哪些主要食材？", "ground_truth": "番茄炒蛋的主要食材包括番茄、鸡蛋、盐和食用油，也可以加入少量糖和葱花。", "expected_source": "S001", "question_type": "ingredient", "history": []}
+{"id": "q002", "question": "番茄炒蛋需要几个番茄和几个鸡蛋？", "ground_truth": "资料中番茄炒蛋需要2个番茄和2个鸡蛋。", "expected_source": "S001", "question_type": "ingredient", "history": []}
+{"id": "q003", "question": "番茄炒蛋里糖是必须的吗？", "ground_truth": "糖不是必须食材，资料中标注为少量、可选，可用于平衡番茄酸味。", "expected_source": "S001", "question_type": "ingredient", "history": []}
+{"id": "q004", "question": "番茄炒蛋里葱花有什么作用？", "ground_truth": "葱花是可选食材，主要用于增加香味。", "expected_source": "S001", "question_type": "ingredient", "history": []}
+{"id": "q005", "question": "炒饭的基础食材有哪些？", "ground_truth": "炒饭基础食材包括熟米饭、酱油和食用油，也可以加入鸡蛋、胡萝卜、豆芽、青菜、蘑菇、玉米粒、豆腐、葱、洋葱或蒜等。", "expected_source": "S002", "question_type": "ingredient", "history": []}
+{"id": "q006", "question": "炒饭可以加入哪些可选肉类？", "ground_truth": "资料中提到炒饭可以加入鸡肉、叉烧、牛肉、猪肉、海鲜和虾仁等可选肉类。", "expected_source": "S002", "question_type": "ingredient", "history": []}
+{"id": "q007", "question": "炒饭里鸡蛋是必须的吗？", "ground_truth": "鸡蛋不是必须食材，资料中把鸡蛋列为可选的常见配料。", "expected_source": "S002", "question_type": "ingredient", "history": []}
+{"id": "q008", "question": "Menemen 需要哪些主要食材？", "ground_truth": "Menemen 主要需要鸡蛋、洋葱、青椒、番茄和橄榄油，也可以加入欧芹碎、干牛至、甜椒粉、盐和黑胡椒。", "expected_source": "S003", "question_type": "ingredient", "history": []}
+{"id": "q009", "question": "Menemen 需要几个鸡蛋？", "ground_truth": "资料中 Menemen 需要4个鸡蛋。", "expected_source": "S003", "question_type": "ingredient", "history": []}
+{"id": "q010", "question": "Menemen 里欧芹碎是必须的吗？", "ground_truth": "欧芹碎不是必须食材，资料中标注为可选，用于增加风味。", "expected_source": "S003", "question_type": "ingredient", "history": []}
+{"id": "q011", "question": "番茄炒蛋里的番茄要怎么处理？", "ground_truth": "资料中提到番茄顶部划十字刀，热水焯烫后放入冷水中去皮，然后切成块。", "expected_source": "S001", "question_type": "step", "history": []}
+{"id": "q012", "question": "番茄炒蛋是先炒鸡蛋还是先炒番茄？", "ground_truth": "资料中是先把鸡蛋炒熟盛出，再炒葱花和番茄，最后把鸡蛋倒回锅中。", "expected_source": "S001", "question_type": "step", "history": []}
+{"id": "q013", "question": "番茄炒蛋中鸡蛋要先怎么处理？", "ground_truth": "资料中鸡蛋需要加入少量盐并打散，然后先炒熟盛出备用。", "expected_source": "S001", "question_type": "step", "history": []}
+{"id": "q014", "question": "番茄炒蛋什么时候把鸡蛋倒回锅里？", "ground_truth": "资料中是在番茄翻炒出汁后，把已经炒好的鸡蛋重新倒回锅中。", "expected_source": "S001", "question_type": "step", "history": []}
+{"id": "q015", "question": "炒饭制作前需要先准备哪些步骤？", "ground_truth": "资料中提到要提前准备所有食材；如果使用洋葱要先切丁；清洗豆芽并去掉不新鲜部分；如果加入肉类，需要提前切好或处理好。", "expected_source": "S002", "question_type": "step", "history": []}
+{"id": "q016", "question": "炒饭里的豆芽应该什么时候加入？", "ground_truth": "资料中提到豆腐、豆芽和洋葱适合在接近结束时加入，避免过度烹饪。", "expected_source": "S002", "question_type": "step", "history": []}
+{"id": "q017", "question": "炒饭的酱油应该在哪个阶段加入？", "ground_truth": "资料中是在加入熟米饭并用中高火翻炒后，加入酱油、肉类、鸡蛋和蔬菜。", "expected_source": "S002", "question_type": "step", "history": []}
+{"id": "q018", "question": "Menemen 的番茄需要怎么处理？", "ground_truth": "资料中提到将番茄焯烫、去皮、去籽并切丁，也可以将番茄磨碎或擦成泥。", "expected_source": "S003", "question_type": "step", "history": []}
+{"id": "q019", "question": "Menemen 中洋葱和青椒应该怎么处理？", "ground_truth": "资料中提到将洋葱和青椒切丁，然后用橄榄油翻炒至变软。", "expected_source": "S003", "question_type": "step", "history": []}
+{"id": "q020", "question": "Menemen 什么时候加入鸡蛋？", "ground_truth": "资料中是在番茄煮约5分钟、加入欧芹并用盐和黑胡椒调味后，将打散的鸡蛋倒入锅中并搅拌至熟。", "expected_source": "S003", "question_type": "step", "history": []}
+{"id": "q021", "question": "为什么炒饭适合用冷藏过的剩米饭？", "ground_truth": "因为冷藏过的剩米饭水分较少，炒出来不容易粘在一起。", "expected_source": "S002", "question_type": "detail", "history": []}
+{"id": "q022", "question": "番茄炒蛋最后为什么要短暂炖煮？", "ground_truth": "资料中提到最后短暂炖煮是为了让番茄汁略微收浓。", "expected_source": "S001", "question_type": "detail", "history": []}
+{"id": "q023", "question": "番茄炒蛋中糖的作用是什么？", "ground_truth": "资料中 ingredients.csv 提到糖可以平衡番茄酸味。", "expected_source": "S004", "question_type": "detail", "history": []}
+{"id": "q024", "question": "炒饭中豆腐、豆芽和洋葱为什么不宜太早加入？", "ground_truth": "资料中提到它们适合在接近结束时加入，目的是避免过度烹饪。", "expected_source": "S002", "question_type": "detail", "history": []}
+{"id": "q025", "question": "炒饭可以使用哪些调味料？", "ground_truth": "资料中提到炒饭可使用黑胡椒、糖、盐、辣椒和炒饭调味粉。", "expected_source": "S002", "question_type": "detail", "history": []}
+{"id": "q026", "question": "Menemen 可以作为哪几餐食用？", "ground_truth": "资料中提到 Menemen 可以作为早餐或午餐食用。", "expected_source": "S003", "question_type": "detail", "history": []}
+{"id": "q027", "question": "Menemen 通常搭配什么食用？", "ground_truth": "资料中提到 Menemen 通常搭配面包食用。", "expected_source": "S003", "question_type": "detail", "history": []}
+{"id": "q028", "question": "Menemen 里的干牛至和甜椒粉是必须的吗？", "ground_truth": "资料中干牛至和甜椒粉都标注为可选食材。", "expected_source": "S003", "question_type": "detail", "history": []}
+{"id": "q029", "question": "番茄炒蛋适合用来测试 RAG 的哪些能力？", "ground_truth": "资料中提到番茄炒蛋适合测试食材查询、步骤查询、连续追问和来源引用能力。", "expected_source": "S001", "question_type": "detail", "history": []}
+{"id": "q030", "question": "Menemen 这份资料适合测试 RAG 系统什么能力？", "ground_truth": "资料中提到 Menemen 适合测试系统是否能区分相似菜品，例如中国番茄炒蛋和土耳其 Menemen。", "expected_source": "S003", "question_type": "detail", "history": []}
+{"id": "q031", "question": "Menemen 和番茄炒蛋有什么区别？", "ground_truth": "Menemen 是土耳其菜，主要由鸡蛋、洋葱、青椒和番茄制成，通常搭配面包；番茄炒蛋是中国家常菜，主要由番茄和鸡蛋制成，制作中先炒鸡蛋再炒番茄。", "expected_source": "S001|S003", "question_type": "compare", "history": []}
+{"id": "q032", "question": "番茄炒蛋和 Menemen 都会用到哪些共同食材？", "ground_truth": "二者共同使用番茄和鸡蛋。Menemen 还使用洋葱、青椒和橄榄油等；番茄炒蛋还使用盐、食用油，可选糖和葱花。", "expected_source": "S001|S003", "question_type": "compare", "history": []}
+{"id": "q033", "question": "炒饭和番茄炒蛋都可以使用鸡蛋吗？", "ground_truth": "可以。番茄炒蛋中鸡蛋是主要食材；炒饭中鸡蛋是可选的常见配料。", "expected_source": "S001|S002|S004", "question_type": "compare", "history": []}
+{"id": "q034", "question": "番茄炒蛋和 Menemen 的番茄处理方式一样吗？", "ground_truth": "不完全一样。番茄炒蛋中番茄划十字刀、焯烫、冷水去皮后切块；Menemen 中番茄焯烫、去皮、去籽并切丁，也可以磨碎或擦成泥。", "expected_source": "S001|S003", "question_type": "compare", "history": []}
+{"id": "q035", "question": "炒饭和 Menemen 哪个资料提到了搭配面包？", "ground_truth": "Menemen 资料提到了搭配面包食用；炒饭资料没有提到搭配面包。", "expected_source": "S003", "question_type": "compare", "history": []}
+{"id": "q036", "question": "它需要几个鸡蛋？", "ground_truth": "在上一轮讨论 Menemen 的语境下，资料中 Menemen 需要4个鸡蛋。", "expected_source": "S003", "question_type": "follow_up", "history": [{"role": "user", "content": "Menemen 是什么菜？"}, {"role": "assistant", "content": "Menemen 是一道土耳其菜，主要由鸡蛋、洋葱、青椒和番茄制成。"}]}
+{"id": "q037", "question": "它里面的番茄要怎么处理？", "ground_truth": "在上一轮讨论番茄炒蛋的语境下，番茄顶部划十字刀，热水焯烫后放入冷水中去皮，然后切成块。", "expected_source": "S001", "question_type": "follow_up", "history": [{"role": "user", "content": "番茄炒蛋怎么做？"}, {"role": "assistant", "content": "番茄炒蛋是中国家常菜，主要由番茄和鸡蛋制成。"}]}
+{"id": "q038", "question": "这种饭为什么更适合用剩米饭？", "ground_truth": "在上一轮讨论炒饭的语境下，因为冷藏过的剩米饭水分较少，炒出来不容易粘在一起。", "expected_source": "S002", "question_type": "follow_up", "history": [{"role": "user", "content": "炒饭需要哪些食材？"}, {"role": "assistant", "content": "炒饭主要使用熟米饭、酱油和食用油，也可加入鸡蛋、蔬菜或肉类。"}]}
+{"id": "q039", "question": "它是不是必须加糖？", "ground_truth": "在上一轮讨论番茄炒蛋的语境下，糖不是必须的，资料中标注为少量、可选，可用于平衡番茄酸味。", "expected_source": "S001|S004", "question_type": "follow_up", "history": [{"role": "user", "content": "番茄炒蛋需要哪些食材？"}, {"role": "assistant", "content": "番茄炒蛋主要需要番茄、鸡蛋、盐和食用油，也可加入糖和葱花。"}]}
+{"id": "q040", "question": "它应该什么时候放豆芽？", "ground_truth": "在上一轮讨论炒饭的语境下，豆芽适合在接近结束时加入，避免过度烹饪。", "expected_source": "S002", "question_type": "follow_up", "history": [{"role": "user", "content": "炒饭里可以放豆芽吗？"}, {"role": "assistant", "content": "可以，资料中豆芽属于炒饭的可选食材。"}]}
+{"id": "q041", "question": "这道土耳其菜最后怎么处理鸡蛋？", "ground_truth": "在 Menemen 语境下，将鸡蛋打散后倒入锅中，搅拌直到鸡蛋熟透。", "expected_source": "S003", "question_type": "follow_up", "history": [{"role": "user", "content": "Menemen 的制作步骤是什么？"}, {"role": "assistant", "content": "Menemen 先处理番茄，再炒洋葱和青椒，加入番茄煮约5分钟。"}]}
+{"id": "q042", "question": "前面说的这道菜通常配什么吃？", "ground_truth": "在上一轮讨论 Menemen 的语境下，资料中提到 Menemen 通常搭配面包食用。", "expected_source": "S003", "question_type": "follow_up", "history": [{"role": "user", "content": "Menemen 是什么菜？"}, {"role": "assistant", "content": "Menemen 是一道土耳其菜，可作为早餐或午餐。"}]}
+{"id": "q043", "question": "这个步骤之后鸡蛋什么时候倒回去？", "ground_truth": "在番茄炒蛋语境下，番茄翻炒出汁后，将炒好的鸡蛋重新倒回锅中。", "expected_source": "S001", "question_type": "follow_up", "history": [{"role": "user", "content": "番茄炒蛋先炒什么？"}, {"role": "assistant", "content": "先把鸡蛋炒熟盛出，再炒葱花和番茄。"}]}
+{"id": "q044", "question": "这两个菜有什么相同点？", "ground_truth": "在番茄炒蛋和 Menemen 语境下，两者都使用番茄和鸡蛋。", "expected_source": "S001|S003", "question_type": "follow_up", "history": [{"role": "user", "content": "番茄炒蛋和 Menemen 有什么区别？"}, {"role": "assistant", "content": "番茄炒蛋是中国家常菜，Menemen 是土耳其菜。"}]}
+{"id": "q045", "question": "这个配料是必须的吗？", "ground_truth": "在上一轮讨论 Menemen 的欧芹碎语境下，欧芹碎不是必须的，资料中标注为可选，用于增加风味。", "expected_source": "S003|S004", "question_type": "follow_up", "history": [{"role": "user", "content": "Menemen 里面欧芹碎有什么作用？"}, {"role": "assistant", "content": "欧芹碎可以增加风味。"}]}
+{"id": "q046", "question": "资料里有没有讲牛排怎么煎？", "ground_truth": "资料中没有提供牛排煎法，系统应该说明知识库中未提供相关内容，而不是自行编造。", "expected_source": "none", "question_type": "reject", "history": []}
+{"id": "q047", "question": "资料里有没有讲奶茶怎么做？", "ground_truth": "资料中没有提供奶茶做法，系统应该拒答或说明知识库中未提供相关内容。", "expected_source": "none", "question_type": "reject", "history": []}
+{"id": "q048", "question": "根据资料，宫保鸡丁需要花生吗？", "ground_truth": "资料中没有宫保鸡丁相关内容，系统应该说明知识库中未提供相关内容。", "expected_source": "none", "question_type": "reject", "history": []}
+{"id": "q049", "question": "资料里有没有说炒饭一定要加牛肉？", "ground_truth": "资料中没有说炒饭一定要加牛肉；牛肉只是可选肉类之一。系统不应说必须加牛肉。", "expected_source": "S002", "question_type": "reject_or_negation", "history": []}
+{"id": "q050", "question": "资料里有没有说冷藏米饭会让炒饭更劲道？", "ground_truth": "资料只说冷藏过的剩米饭水分较少、炒出来不容易粘在一起，没有明确说会更劲道。系统应该避免扩展。", "expected_source": "S002", "question_type": "faithfulness_check", "history": []}

@@ -1,0 +1,5 @@
+﻿source_id,file_name,source_type,origin,license,expected_topic
+S001,tomato_egg.md,markdown,Wikibooks Cookbook - Stir-fried tomato and scrambled eggs,CC BY-SA 4.0 / GFDL,番茄炒蛋食材和制作步骤
+S002,fried_rice.md,markdown,Wikibooks Cookbook - Fried Rice,CC BY-SA 4.0 / GFDL,炒饭食材和烹饪顺序
+S003,menemen.md,markdown,Wikibooks Cookbook - Menemen,CC BY-SA 4.0 / GFDL,土耳其番茄鸡蛋菜品
+S004,ingredients.csv,csv,self-created from test documents,self-created,结构化食材表
