@@ -346,7 +346,7 @@ GET /api/sources
 ### 清空会话
 
 ```http
-POST /api/session/clear
+DELETE /api/session/{session_id}
 ```
 
 具体接口参数可根据后端代码和前端调用逻辑查看。
